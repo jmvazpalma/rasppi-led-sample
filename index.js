@@ -4,7 +4,7 @@ const configPin = 7;
 const configTimeout = 1000;
 
 wpi.setup('wpi');
-wpi.pinMode(configPin, OUTPUT);
+wpi.pinMode(configPin, wpi.OUTPUT);
 
 const isLedOn = 0;
 
