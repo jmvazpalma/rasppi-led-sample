@@ -1,12 +1,12 @@
-import wpi from 'node-wiring-pi';
+const wpi = require('wiring-pi');
 
-var configPin = 7;
-var configTimeout = 1000;
+const configPin = 7;
+const configTimeout = 1000;
 
 wpi.setup('wpi');
 wpi.pinMode(configPin, OUTPUT);
 
-var isLedOn = 0;
+const isLedOn = 0;
 
 setInterval(function() {
 	isLedOn = +!isLedOn;
