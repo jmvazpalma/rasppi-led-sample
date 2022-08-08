@@ -1,0 +1,22 @@
+{
+  "name": "raspi-led-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmvazpalma/rasppi-led-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmvazpalma/rasppi-led-sample/issues"
+  },
+  "homepage": "https://github.com/jmvazpalma/rasppi-led-sample#readme",
+  "dependencies": {
+    "node-wiring-pi": "^0.0.5"
+  }
+}
