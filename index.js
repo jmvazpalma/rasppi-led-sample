@@ -1,4 +1,4 @@
-const wpi = require('wiring-pi');
+const wpi = require('node-wiring-pi');
 
 const configPin = 7;
 const configTimeout = 1000;
